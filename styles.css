@@ -1,0 +1,58 @@
+body {
+    background-color: #F7F4F2;
+}
+
+h1, h2, li {
+    color: #4B303C;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+p {
+    color: #1D342C;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+img {
+    width: auto;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    padding-top: 7px;
+}
+
+a:visited {
+    color: #4B303C;
+}
+
+a:link {   
+    color: #1D342C;
+}
+
+.links {
+    display: inline;
+    margin: 10px;
+}
+
+#householdScreenshot {
+    height: 400px;
+    width: auto;
+}
+
+#addPetScreenshot {
+    height: 300px;
+    width: auto;
+}
+
+#addVetEventScreenshot {
+    height: 300px;
+    width: auto;
+}
