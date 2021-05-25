@@ -1,5 +1,7 @@
 body {
     background-color: #F7F4F2;
+    margin: 35px 25px 35px 25px;
+    max-width: 100%;
 }
 
 h1, h2, li {
@@ -8,25 +10,48 @@ h1, h2, li {
     
 }
 
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+li {
+    font-size: 3em;
+    padding: 17px;
+}
+
 p {
     color: #1D342C;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    font-size: 1.7em;
 }
 
-img {
-    width: auto;
+/* img {
+    max-width: 100%;
+    height: auto;
     box-sizing: border-box;
     display: inline-block;
-}
+} */
 
 ul {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 article {
     padding-top: 7px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer {
+    color: #4B303C;
 }
 
 a:visited {
@@ -43,16 +68,51 @@ a:link {
 }
 
 #householdScreenshot {
-    height: 400px;
-    width: auto;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    box-sizing: border-box;
+    /* height: 400px;
+    width: auto; */
+}
+
+#imageContainer {
+    flex-direction: row;
+    display: inline-flex;
+    max-width: 100%;
 }
 
 #addPetScreenshot {
-    height: 300px;
-    width: auto;
+    max-width: 50%;
+    height: auto;
+    flex-basis: auto;   
+    flex: 50%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 #addVetEventScreenshot {
-    height: 300px;
-    width: auto;
+    max-width: 50%;
+    height: auto;
+    flex: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    li {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1.5em;
+    }
 }
